@@ -20,6 +20,20 @@
 
 
 
+## Dev Tools
+- Nosetests (test discovery, plug-in support i.e. generating coverage reports)
+
+  [https://nose.readthedocs.org/en/latest/] (https://nose.readthedocs.org/en/latest/)
+
+- Virtual Environments (isolates python dependencies by storing a copy of the interpreter and python packages in a separate folder)
+
+  [http://docs.python-guide.org/en/latest/dev/virtualenvs/] (http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+
+
+- SWIG (interfacing C/C++ with Python)
+
+
+
 ## Advanced Concepts
 - Python Concurrency from the Ground Up
 
