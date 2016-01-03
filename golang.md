@@ -21,7 +21,7 @@
 
 
 
-## Best Practices
+## Best Practices / Quick Tips
 
 - 7 common mistakes in Go (by Docker COO, really applicable lessons)
 
@@ -36,9 +36,58 @@
 
   [http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
 
+- Ten Useful Techniques in Go
+
+  [http://arslan.io/ten-useful-techniques-in-go] (http://arslan.io/ten-useful-techniques-in-go)
+
+- Writing Testable Apps in Go
+
+  [http://relistan.com/writing-testable-apps-in-go/] (http://relistan.com/writing-testable-apps-in-go/)
+
+- Stupid Gopher Tricks 
+
+  [http://talks.golang.org/2015/tricks.slide#1] (http://talks.golang.org/2015/tricks.slide#1)
 
 
-## Dev Tools
+
+## Articles
+- Using context structs rather than relying on globals (lots of good refs)
+
+  [http://elithrar.github.io/article/custom-handlers-avoiding-globals/] (http://elithrar.github.io/article/custom-handlers-avoiding-globals/)
+
+  [http://elithrar.github.io/article/http-handler-error-handling-revisited/] (http://elithrar.github.io/article/http-handler-error-handling-revisited/)
+
+- Organizing Database Access (global vs. dependency injection vs others)
+
+  [http://www.alexedwards.net/blog/organising-database-access] (http://www.alexedwards.net/blog/organising-database-access)
+
+- Custom Request Scope Contexts (expand on golang.org/x/net/context)
+
+  [https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types] (https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types)
+
+- Quick Overview of Go database/sql library (good explaination of nuances of the package)
+
+  [http://go-database-sql.org/index.html] (http://go-database-sql.org/index.html)
+
+- Structuring Applications in Go
+
+  [https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod] (https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod)
+
+- Implementing RSA Encryption in Golang
+
+  [http://blog.giorgis.io/golang-rsa-encryption] (http://blog.giorgis.io/golang-rsa-encryption)
+
+- Why Go gets exceptions right
+
+  [http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
+
+
+
+## Development Environment
+- Kubernetes Development Workflow (VERY GOOD)
+
+  [https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
+
 - How to write Go code (setting up go workspace)
 
   [https://golang.org/doc/code.html] (https://golang.org/doc/code.html)
@@ -57,6 +106,10 @@
 - Analysis of the Go runtime scheduler (a more indepth look at the scheduler)
 
   [http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf] (http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+
+- Garbage collection (as of Go 1.5)
+
+  [https://blog.golang.org/go15gc] (https://blog.golang.org/go15gc)
 
 - Go 1.5+ Gargage Collection In-depth
 
@@ -88,36 +141,3 @@
 - Go in Practice (goes beyond just language syntax)
 
   [https://www.manning.com/books/go-in-practice] (https://www.manning.com/books/go-in-practice)
-
-
-
-## Articles
-- Garbage collection (as of Go 1.5)
-
-  [https://blog.golang.org/go15gc] (https://blog.golang.org/go15gc)
-
-- Using context structs rather than relying on globals (lots of good refs)
-
-  [http://elithrar.github.io/article/custom-handlers-avoiding-globals/] (http://elithrar.github.io/article/custom-handlers-avoiding-globals/)
-
-  [http://elithrar.github.io/article/http-handler-error-handling-revisited/] (http://elithrar.github.io/article/http-handler-error-handling-revisited/)
-
-- Organizing Database Access (global vs. dependency injection vs others)
-
-  [http://www.alexedwards.net/blog/organising-database-access] (http://www.alexedwards.net/blog/organising-database-access)
-
-- Custom Request Scope Contexts (expand on golang.org/x/net/context)
-
-  [https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types] (https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types)
-
-- Quick Overview of Go database/sql library (good explaination of nuances of the package)
-
-  [http://go-database-sql.org/index.html] (http://go-database-sql.org/index.html)
-
-- Structuring Applications in Go
-
-  [https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod] (https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod)
-
-- Implementing RSA Encryption in Golang
-
-  [http://blog.giorgis.io/golang-rsa-encryption] (http://blog.giorgis.io/golang-rsa-encryption)
