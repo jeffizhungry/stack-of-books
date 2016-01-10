@@ -99,7 +99,8 @@
 
 - [Go blog: Request-scoped Contexts (net/context package)] (https://blog.golang.org/context)
 
-- [Go-kit: Library for building large-scale distributed systems] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
+- [Go-kit: Library for building large-scale distributed systems: VIDEO] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
+
 
 
 ## Books
