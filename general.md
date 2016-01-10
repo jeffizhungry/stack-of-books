@@ -8,7 +8,15 @@
 
 - [The Art of Command Line] (https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
 
+- [The Four Horseman of Performance Apocalypse] (http://hacksoflife.blogspot.com/2015/01/the-four-horsemen-of-performance.html)
 
+- [Brute Force Log Parsing] (http://blog.scalyr.com/2014/05/searching-20-gbsec-systems-engineering-before-algorithms/?1)
+
+- [The Google Way of Attacking Problems] (https://hbr.org/2014/12/the-google-way-of-attacking-problems)
+
+- [Paxos Made Moderately Complex] (http://paxos.systems/)
+
+- [Improving Facebook performance on Android with Flatbuffers] (https://code.facebook.com/posts/872547912839369/improving-facebook-s-performance-on-android-with-flatbuffers/)
 
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
