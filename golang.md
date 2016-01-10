@@ -1,143 +1,114 @@
 ## Starting Out
-- Effective Go
+- [Effective Go] (https://golang.org/doc/effective_go.html)
 
-  [https://golang.org/doc/effective_go.html] (https://golang.org/doc/effective_go.html)
+    * Great article detailing the nuances of the language.
 
-- Slices vs arrays
+- [Slices vs arrays] (https://blog.golang.org/slices)
 
-  [https://blog.golang.org/slices] (https://blog.golang.org/slices)
+    * TLDR; Arrays are values, slices are pointers (C idea of an array)
 
-- Concurrency vs Parallelism
+- [Concurrency vs Parallelism: VIDEO] (https://www.youtube.com/watch?v=cN_DpYBzKso)
 
-  [https://www.youtube.com/watch?v=cN_DpYBzKso] (https://www.youtube.com/watch?v=cN_DpYBzKso)
+    * TLDR; Concurrency inter-leaves tasks, Parallel is simultaneous tasks
+    * Concurrent -> Parallel easy
+    * But you should still watch anyways, because it is a great talk
 
-- Go Concurrency Patterns
+- [Go Concurrency Patterns: VIDEO] (https://www.youtube.com/watch?v=f6kdp27TYZs)
 
-  [https://www.youtube.com/watch?v=f6kdp27TYZs] (https://www.youtube.com/watch?v=f6kdp27TYZs)
-
-- Advanced Go Concurrency Patterns
-
-  [https://www.youtube.com/watch?v=QDDwwePbDtw] (https://www.youtube.com/watch?v=QDDwwePbDtw)
+    * Common Go patterns using go routines and channels
 
 
 
 ## Best Practices / Quick Tips
 
-- 7 common mistakes in Go (by Docker COO, really applicable lessons)
+- [7 common mistakes in Go: VIDEO] (https://www.youtube.com/watch?v=29LLRKIL_TI)
 
-  [https://www.youtube.com/watch?v=29LLRKIL_TI] (https://www.youtube.com/watch?v=29LLRKIL_TI)
+    * By Docker COO, very good lessons
 
-- Using Go at The New York Times (good example of a full technology stack with Go at its core, 
-        this gives examples of building rpms, unittest coverage, gathering metrics, CICD)
+- [Using Go at The New York Times: VIDEO] (https://www.youtube.com/watch?v=bAQ9ShmXYLY)
+    
+    * good example of a full technology stack with Go at its core
+    * this gives examples of building rpms, unittest coverage, gathering metrics, CICD
 
-  [https://www.youtube.com/watch?v=bAQ9ShmXYLY] (https://www.youtube.com/watch?v=bAQ9ShmXYLY)
+- [Gotchas and common mistakes in Go] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
 
-- Gotchas and common mistakes in Go
+- [Ten Useful Techniques in Go] (http://arslan.io/ten-useful-techniques-in-go)
 
-  [http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
+- [Writing Testable Apps in Go] (http://relistan.com/writing-testable-apps-in-go/)
 
-- Ten Useful Techniques in Go
-
-  [http://arslan.io/ten-useful-techniques-in-go] (http://arslan.io/ten-useful-techniques-in-go)
-
-- Writing Testable Apps in Go
-
-  [http://relistan.com/writing-testable-apps-in-go/] (http://relistan.com/writing-testable-apps-in-go/)
-
-- Stupid Gopher Tricks 
-
-  [http://talks.golang.org/2015/tricks.slide#1] (http://talks.golang.org/2015/tricks.slide#1)
+- [Stupid Gopher Tricks] (http://talks.golang.org/2015/tricks.slide#1)
 
 
 
 ## Articles
-- Using context structs rather than relying on globals (lots of good refs)
+- [Using context structs rather than relying on globals] (http://elithrar.github.io/article/custom-handlers-avoiding-globals/)
 
-  [http://elithrar.github.io/article/custom-handlers-avoiding-globals/] (http://elithrar.github.io/article/custom-handlers-avoiding-globals/)
+- [Http handler error handling revisisted] (http://elithrar.github.io/article/http-handler-error-handling-revisited/)
 
-  [http://elithrar.github.io/article/http-handler-error-handling-revisited/] (http://elithrar.github.io/article/http-handler-error-handling-revisited/)
+- [Organizing Database Access] (http://www.alexedwards.net/blog/organising-database-access)
 
-- Organizing Database Access (global vs. dependency injection vs others)
+  * global vs. dependency injection vs others
 
-  [http://www.alexedwards.net/blog/organising-database-access] (http://www.alexedwards.net/blog/organising-database-access)
+- [Custom Request Scope Contexts] (https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types)
 
-- Custom Request Scope Contexts (expand on golang.org/x/net/context)
+  * expand on golang.org/x/net/context
 
-  [https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types] (https://joeshaw.org/net-context-and-http-handler/#custom-context-handler-types)
+- [Quick Overview of Go database/sql library] (http://go-database-sql.org/index.html)
 
-- Quick Overview of Go database/sql library (good explaination of nuances of the package)
+  * good explaination of nuances of the database/sql package
 
-  [http://go-database-sql.org/index.html] (http://go-database-sql.org/index.html)
+- [Structuring Applications in Go] (https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod)
 
-- Structuring Applications in Go
+- [Implementing RSA Encryption in Golang] (http://blog.giorgis.io/golang-rsa-encryption)
 
-  [https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod] (https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#.867ujkhod)
-
-- Implementing RSA Encryption in Golang
-
-  [http://blog.giorgis.io/golang-rsa-encryption] (http://blog.giorgis.io/golang-rsa-encryption)
-
-- Why Go gets exceptions right
-
-  [http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
+- [Why Go gets exceptions right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
 
 
 
 ## Development Environment
-- Kubernetes Development Workflow (VERY GOOD)
+- [Kubernetes Development Workflow] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
 
-  [https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
+    * VERY GOOD description of dev workflow
 
-- How to write Go code (setting up go workspace)
+- [How to write Go code] (https://golang.org/doc/code.html)
 
-  [https://golang.org/doc/code.html] (https://golang.org/doc/code.html)
+    * explain how to setup GOPATH
 
-- vim-go (advanced IDE like vim plugin)
+- [vim-go] (https://github.com/fatih/vim-go)
 
-  [https://github.com/fatih/vim-go] (https://github.com/fatih/vim-go)
+    * advanced IDE like vim plugin
 
 
 
 ## Advanced Concepts
-- Go Scheduler (a simplified version of the PDF below)
+- [Go Scheduler] (https://morsmachine.dk/go-scheduler)
 
-  [https://morsmachine.dk/go-scheduler] (https://morsmachine.dk/go-scheduler)
+    * a simplified version of the PDF below
 
-- Analysis of the Go runtime scheduler (a more indepth look at the scheduler)
+- [Analysis of the Go runtime scheduler] (http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+    
+    * a more indepth look at the scheduler internals
 
-  [http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf] (http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+- [Go blog: Garbage collection] (https://blog.golang.org/go15gc)
 
-- Garbage collection (as of Go 1.5)
+- [Go 1.5+ Gargage Collection In-depth] (https://docs.google.com/document/d/1wmjrocXIWTr1JxU-3EQBI6BK6KgtiFArkG47XK73xIQ/edit)
 
-  [https://blog.golang.org/go15gc] (https://blog.golang.org/go15gc)
+- [Go Execution Modes] (https://docs.google.com/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
 
-- Go 1.5+ Gargage Collection In-depth
+    * go conditional compilation
 
-  [https://docs.google.com/document/d/1wmjrocXIWTr1JxU-3EQBI6BK6KgtiFArkG47XK73xIQ/edit] (https://docs.google.com/document/d/1wmjrocXIWTr1JxU-3EQBI6BK6KgtiFArkG47XK73xIQ/edit)
+- [Go blog: Request-scoped Contexts (net/context package)] (https://blog.golang.org/context)
 
-- Go Execution Modes (different was to compile Go code)
-
-  [https://docs.google.com/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit] (https://docs.google.com/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
-
-- Request-scoped Contexts (net/context package)
-
-  [https://blog.golang.org/context] (https://blog.golang.org/context)
-
-- Go-kit: Library for building large-scale distributed systems
-
-  [https://www.youtube.com/watch?v=1AjaZi4QuGo] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
-
+- [Go-kit: Library for building large-scale distributed systems] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
 
 
 ## Books
-- The Go Programming Language (basics)
+- [The Go Programming Language] (http://www.gopl.io/)
 
-  [http://www.gopl.io/] (http://www.gopl.io/)
+    * Basics, frankly effective go is probably more useful.
 
-- Build Web Application with Golang
+- [Build Web Application with Golang] (https://github.com/astaxie/build-web-application-with-golang/blob/master/en/preface.md)
 
-  [https://github.com/astaxie/build-web-application-with-golang/blob/master/en/preface.md] (https://github.com/astaxie/build-web-application-with-golang/blob/master/en/preface.md)
+- [MEAP: Go in Practice] (https://www.manning.com/books/go-in-practice)
 
-- Go in Practice (goes beyond just language syntax)
-
-  [https://www.manning.com/books/go-in-practice] (https://www.manning.com/books/go-in-practice)
+    * goes beyond just language syntax, VERY GOOD
