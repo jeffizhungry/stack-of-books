@@ -8,3 +8,5 @@ DISCLAIMER:
 * Try to gain insights and perspectives, in addition to just the facts.
 
 * Take everything with a grain of salt, and enjoy!
+
+[The list of lists] (https://github.com/jnv/lists)
