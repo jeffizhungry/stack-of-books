@@ -18,6 +18,8 @@
 
 - [Improving Facebook performance on Android with Flatbuffers] (https://code.facebook.com/posts/872547912839369/improving-facebook-s-performance-on-android-with-flatbuffers/)
 
+- [How to have your causality and wall clocks too: VIDEO] (https://www.youtube.com/watch?v=YqNGbvFHoKM&index=5&list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
+
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
 

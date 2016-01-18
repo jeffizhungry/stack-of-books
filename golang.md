@@ -101,7 +101,7 @@
 
 - [Go-kit: Library for building large-scale distributed systems: VIDEO] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
 
-
+- [Make a RESTful JSON API in Go] (http://thenewstack.io/make-a-restful-json-api-go/)
 
 ## Books
 - [The Go Programming Language] (http://www.gopl.io/)
