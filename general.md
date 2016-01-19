@@ -20,6 +20,10 @@
 
 - [How to have your causality and wall clocks too: VIDEO] (https://www.youtube.com/watch?v=YqNGbvFHoKM&index=5&list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
 
+- [The Actor Model] (http://www.brianstorti.com/the-actor-model/)
+
+   * Actors are like active objects. They do some computation, can store state, and comm with msgs.
+
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
 
@@ -28,3 +32,7 @@
 - [Operating Systems in 3 Pieces] (http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
     * very organized refs
+
+- [Seven Concurrency Models in Seven Weeks] (http://ontheroad.qiniudn.com/blog/resources/Seven%20Concurrency%20Models%20in%20Seven%20Weeks.pdf_9f63659e283556c488223d044c8c8bd1)
+
+   * Looks very promising
