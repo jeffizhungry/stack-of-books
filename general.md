@@ -18,11 +18,17 @@
 
 - [Improving Facebook performance on Android with Flatbuffers] (https://code.facebook.com/posts/872547912839369/improving-facebook-s-performance-on-android-with-flatbuffers/)
 
-- [How to have your causality and wall clocks too: VIDEO] (https://www.youtube.com/watch?v=YqNGbvFHoKM&index=5&list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
-
 - [The Actor Model] (http://www.brianstorti.com/the-actor-model/)
 
    * Actors are like active objects. They do some computation, can store state, and comm with msgs.
+
+## Videos
+
+- [How to have your causality and wall clocks too: VIDEO] (https://www.youtube.com/watch?v=YqNGbvFHoKM&index=5&list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
+
+- [Microservices - Martin Fowler: VIDEO] (https://www.youtube.com/watch?v=wgdBVIX9ifA)
+   
+   * Microservices are NOT the end all solution. Microservices vs the Monolith.
 
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
