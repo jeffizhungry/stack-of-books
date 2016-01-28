@@ -17,7 +17,10 @@
 
     * Common Go patterns using go routines and channels
 
+- [Visualizing Concurrency in Go] (https://divan.github.io/posts/go_concurrency_visualize/)
 
+    * Really good visual of concurrency patterns in Go, and how go routines
+    interact with each other through message passing
 
 ## Best Practices / Quick Tips
 

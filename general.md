@@ -22,7 +22,11 @@
 
 - [The Actor Model] (http://www.brianstorti.com/the-actor-model/)
 
-   * Actors are like active objects. They do some computation, can store state, and comm with msgs.
+    * Actors are like active objects. They do some computation, can store state, and comm with msgs.
+
+- [C++11 Thread Affinity and Hyperthreading] (http://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/)
+
+    * Good example on multi-core architecture and how threads get mapped to cores.
 
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
@@ -35,4 +39,4 @@
 
 - [Seven Concurrency Models in Seven Weeks] (http://ontheroad.qiniudn.com/blog/resources/Seven%20Concurrency%20Models%20in%20Seven%20Weeks.pdf_9f63659e283556c488223d044c8c8bd1)
 
-   * Looks very promising
+    * Looks very promising
