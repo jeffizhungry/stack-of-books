@@ -8,8 +8,6 @@
 
 - [The Art of Command Line] (https://github.com/jlevy/the-art-of-command-line/blob/master/README.md)
 
-- [The Four Horseman of Performance Apocalypse] (http://hacksoflife.blogspot.com/2015/01/the-four-horsemen-of-performance.html)
-
 - [Brute Force Log Parsing] (http://blog.scalyr.com/2014/05/searching-20-gbsec-systems-engineering-before-algorithms/?1)
 
 - [The Google Way of Attacking Problems] (https://hbr.org/2014/12/the-google-way-of-attacking-problems)
@@ -25,6 +23,10 @@
 - [C++11 Thread Affinity and Hyperthreading] (http://eli.thegreenplace.net/2016/c11-threads-affinity-and-hyperthreading/)
 
     * Good example on multi-core architecture and how threads get mapped to cores.
+
+- [The Error Model] (http://joeduffyblog.com/2016/02/07/the-error-model/)
+
+    * Analysis of error handling methods used by different languages such as error codes and exceptions.
 
 ## Videos
 
