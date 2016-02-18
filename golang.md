@@ -103,6 +103,8 @@
 
     * go conditional compilation --> necessary for platform specifc code
 
+- [Summary of Go Generics Discussions] (https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#)
+
 - [Go blog: Request-scoped Contexts (net/context package)] (https://blog.golang.org/context)
 
 - [Go-kit: Library for building large-scale distributed systems: VIDEO] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
