@@ -39,7 +39,7 @@
     * good example of a full technology stack with Go at its core
     * this gives examples of building rpms, unittest coverage, gathering metrics, CICD
 
-- [Gotchas and common mistakes in Go] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
+- [50 Shades of Go: Gotchas and common mistakes in Go] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
 
 - [Ten Useful Techniques in Go] (http://arslan.io/ten-useful-techniques-in-go)
 
@@ -72,16 +72,6 @@
 - [Why Go gets exceptions right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
 
 
-## Development Environment
-- [Kubernetes Development Workflow] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
-
-    * VERY GOOD description of dev workflow
-
-- [vim-go] (https://github.com/fatih/vim-go)
-
-    * advanced IDE like vim plugin
-
-
 ## Advanced Concepts
 - [Go Scheduler] (https://morsmachine.dk/go-scheduler)
 
@@ -110,6 +100,22 @@
 - [Go-kit: Library for building large-scale distributed systems: VIDEO] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
 
 - [Make a RESTful JSON API in Go] (http://thenewstack.io/make-a-restful-json-api-go/)
+
+
+## Pitfalls
+- [Go channels are bad and you should feel bad] (http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/)
+
+    * interesting perspective
+
+
+## Development Environment
+- [Kubernetes Development Workflow] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
+
+    * VERY GOOD description of dev workflow
+
+- [vim-go] (https://github.com/fatih/vim-go)
+
+    * advanced IDE like vim plugin
 
 
 ## Books
