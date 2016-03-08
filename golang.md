@@ -1,11 +1,11 @@
 ## Starting Out
+- [Simplicity is Complicated: VIDEO] (https://www.youtube.com/watch?v=rFejpH_tAHM)
+
+    * Great intro on various aspects of the language from a high level perspective.
+
 - [Effective Go] (https://golang.org/doc/effective_go.html)
 
     * Great article detailing the nuances of the language.
-
-- [Slices vs arrays] (https://blog.golang.org/slices)
-
-    * TLDR; Arrays are values, slices are pointers (C idea of an array)
 
 - [Concurrency vs Parallelism: VIDEO] (https://www.youtube.com/watch?v=cN_DpYBzKso)
 
@@ -13,13 +13,22 @@
     * Concurrent -> Parallel easy
     * But you should still watch anyways, because it is a great talk
 
-- [Go Concurrency Patterns: VIDEO] (https://www.youtube.com/watch?v=f6kdp27TYZs)
+- [Visualizing Concurrency in Go] (https://divan.github.io/posts/go_concurrency_visualize/)
 
-    * Common Go patterns using go routines and channels
+    * Really good visual of concurrency patterns in Go, and how go routines
+    interact with each other through message passing
 
+- [Five things that make Go fast] (http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
+
+- [Channel Axioms] (http://dave.cheney.net/2014/03/19/channel-axioms)
+
+    * You need to know this!
 
 
 ## Best Practices / Quick Tips
+- [Go Concurrency Patterns: VIDEO] (https://www.youtube.com/watch?v=f6kdp27TYZs)
+
+    * Common Go patterns using go routines and channels
 
 - [7 common mistakes in Go: VIDEO] (https://www.youtube.com/watch?v=29LLRKIL_TI)
 
@@ -30,14 +39,13 @@
     * good example of a full technology stack with Go at its core
     * this gives examples of building rpms, unittest coverage, gathering metrics, CICD
 
-- [Gotchas and common mistakes in Go] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
+- [50 Shades of Go: Gotchas and common mistakes in Go] (http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/index.html)
 
 - [Ten Useful Techniques in Go] (http://arslan.io/ten-useful-techniques-in-go)
 
 - [Writing Testable Apps in Go] (http://relistan.com/writing-testable-apps-in-go/)
 
 - [Stupid Gopher Tricks] (http://talks.golang.org/2015/tricks.slide#1)
-
 
 
 ## Articles
@@ -64,22 +72,6 @@
 - [Why Go gets exceptions right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
 
 
-
-## Development Environment
-- [Kubernetes Development Workflow] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
-
-    * VERY GOOD description of dev workflow
-
-- [How to write Go code] (https://golang.org/doc/code.html)
-
-    * explain how to setup GOPATH
-
-- [vim-go] (https://github.com/fatih/vim-go)
-
-    * advanced IDE like vim plugin
-
-
-
 ## Advanced Concepts
 - [Go Scheduler] (https://morsmachine.dk/go-scheduler)
 
@@ -93,15 +85,38 @@
 
 - [Go 1.5+ Gargage Collection In-depth] (https://docs.google.com/document/d/1wmjrocXIWTr1JxU-3EQBI6BK6KgtiFArkG47XK73xIQ/edit)
 
+- [Go GC: Solving the Latency Problem] (https://www.youtube.com/watch?v=aiv1JOfMjm0)
+    
+    * advances on traditional GCs with write barriers
+
 - [Go Execution Modes] (https://docs.google.com/document/d/1nr-TQHw_er6GOQRsF6T43GGhFDelrAP0NqSS_00RgZQ/edit)
 
-    * go conditional compilation
+    * go conditional compilation --> necessary for platform specifc code
+
+- [Summary of Go Generics Discussions] (https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit#)
 
 - [Go blog: Request-scoped Contexts (net/context package)] (https://blog.golang.org/context)
 
 - [Go-kit: Library for building large-scale distributed systems: VIDEO] (https://www.youtube.com/watch?v=1AjaZi4QuGo)
 
 - [Make a RESTful JSON API in Go] (http://thenewstack.io/make-a-restful-json-api-go/)
+
+
+## Pitfalls
+- [Go channels are bad and you should feel bad] (http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/)
+
+    * interesting perspective
+
+
+## Development Environment
+- [Kubernetes Development Workflow] (https://github.com/kubernetes/kubernetes/blob/master/docs/devel/development.md)
+
+    * VERY GOOD description of dev workflow
+
+- [vim-go] (https://github.com/fatih/vim-go)
+
+    * advanced IDE like vim plugin
+
 
 ## Books
 - [The Go Programming Language] (http://www.gopl.io/)

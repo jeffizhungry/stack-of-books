@@ -8,3 +8,6 @@
 
     * When settling down, we should be conscious of how our location can affect how we foster new friendships.
 
+- [How to keep your best programmers] http://www.daedtech.com/how-to-keep-your-best-programmers)
+
+    * Very true
