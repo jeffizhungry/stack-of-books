@@ -1,7 +1,5 @@
 ## Interesting Articles
 
-- [Linux Performance Analysis Tools] (http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
-
 - [Composition vs Inheritance] (https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose)
 
 - [Lessons learned writing highly-available code] (https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.5zvzo65l1)
@@ -22,6 +20,7 @@
 
    * Actors are like active objects. They do some computation, can store state, and comm with msgs.
 
+
 ## Videos
 
 - [How to have your causality and wall clocks too: VIDEO] (https://www.youtube.com/watch?v=YqNGbvFHoKM&index=5&list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
@@ -29,6 +28,13 @@
 - [Microservices - Martin Fowler: VIDEO] (https://www.youtube.com/watch?v=wgdBVIX9ifA)
    
    * Microservices are NOT the end all solution. Microservices vs the Monolith.
+
+
+## Useful References 
+- [Linux Performance Analysis Tools] (http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
+
+- [User Authentication Guidelines] (https://gist.github.com/khrm/e9421fe502938f348330)
+
 
 ## Books
 - [Advanced Programming in the Unix Environment] (http://poincare.matf.bg.ac.rs/~ivana//courses/ps/sistemi_knjige/pomocno/apue.pdf)
