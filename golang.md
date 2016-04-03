@@ -71,6 +71,8 @@
 
 - [Why Go gets exceptions right] (http://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right)
 
+- [Golang concepts from an OOP point of view] (https://github.com/luciotato/golang-notes/blob/master/OOP.md)
+
 
 ## Advanced Concepts
 - [Go Scheduler] (https://morsmachine.dk/go-scheduler)
