@@ -1,8 +1,8 @@
 // Decorator pattern adds functionality to an existing class by wrapping the
 // original class.
 //
-// The example below wraps the Circle class with the RedShape class, which
-// both satisfies the Shape inteface.
+// In the example below, RedShape class wraps the circle class, which both
+// satisfies the Shape interface.
 
 package main
 
