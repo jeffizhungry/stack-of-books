@@ -114,7 +114,7 @@ func (a And) meetCriteria(pp []Person) []Person {
 
 func PrintPersons(pp []Person) {
 	for _, p := range pp {
-		fmt.Printf("%+v\n", p)
+		fmt.Printf("%-6v %-6v %-7v\n", p.Name, p.Gender, p.MartialStatus)
 	}
 }
 
@@ -133,12 +133,12 @@ func main() {
 	var singleMale Criteria = And{Male{}, Single{}}
 	var singleOrFemale Criteria = Or{Female{}, Single{}}
 
-	fmt.Println("Males:")
+	fmt.Println("Males:\n-------")
 	PrintPersons(male.meetCriteria(ppl))
-	fmt.Println("\nFemales:")
+	fmt.Println("\nFemales:\n---------")
 	PrintPersons(female.meetCriteria(ppl))
-	fmt.Println("\nSingle Males:")
+	fmt.Println("\nSingle Males:\n--------------")
 	PrintPersons(singleMale.meetCriteria(ppl))
-	fmt.Println("\nSingle Or Females:")
+	fmt.Println("\nSingle Or Females:\n-------------------")
 	PrintPersons(singleOrFemale.meetCriteria(ppl))
 }
