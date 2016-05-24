@@ -1,35 +1,37 @@
 ## Starting Out
-- [Simplicity is Complicated: VIDEO] (https://www.youtube.com/watch?v=rFejpH_tAHM)
-
-    * Great intro on various aspects of the language from a high level perspective.
+- [Golang Sandbox] (https://tour.golang.org/welcome/1)
+   
+   * Great first dive into Golang syntax.
 
 - [Effective Go] (https://golang.org/doc/effective_go.html)
 
     * Great article detailing the nuances of the language.
 
+- [Simplicity is Complicated: VIDEO] (https://www.youtube.com/watch?v=rFejpH_tAHM)
+
+    * Great intro on various aspects of the language from a high level perspective.
+
 - [Concurrency vs Parallelism: VIDEO] (https://www.youtube.com/watch?v=cN_DpYBzKso)
 
-    * TLDR; Concurrency inter-leaves tasks, Parallel is simultaneous tasks
-    * Concurrent -> Parallel easy
+    * Concurrency is managing multiple tasks (on one core, as a pipeline, etc.)
+    * Parallelism doing multiple tasks simultaneously
     * But you should still watch anyways, because it is a great talk
+
+- [Channel Axioms] (http://dave.cheney.net/2014/03/19/channel-axioms)
+
+    * You need to know this!
+
+- [Go Proverbs] (https://go-proverbs.github.io/)
+
+    * This is actually really important if you understand what each of these mean.
 
 - [Visualizing Concurrency in Go] (https://divan.github.io/posts/go_concurrency_visualize/)
 
     * Really good visual of concurrency patterns in Go, and how go routines
     interact with each other through message passing
 
-- [Five things that make Go fast] (http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
-
-- [Channel Axioms] (http://dave.cheney.net/2014/03/19/channel-axioms)
-
-    * You need to know this!
-
 
 ## Best Practices / Quick Tips
-- [Go Concurrency Patterns: VIDEO] (https://www.youtube.com/watch?v=f6kdp27TYZs)
-
-    * Common Go patterns using go routines and channels
-
 - [7 common mistakes in Go: VIDEO] (https://www.youtube.com/watch?v=29LLRKIL_TI)
 
     * By Docker COO, very good lessons
@@ -46,6 +48,18 @@
 - [Writing Testable Apps in Go] (http://relistan.com/writing-testable-apps-in-go/)
 
 - [Stupid Gopher Tricks] (http://talks.golang.org/2015/tricks.slide#1)
+
+- [Whats in a name] (https://talks.golang.org/2014/names.slide#1)
+
+   * Good presentation on good Golangic naming conventions
+
+- [CodeReviewComments] (https://github.com/golang/go/wiki/CodeReviewComments)
+
+   * Stylistic Guide that highlights various Golang philosophies used in the Go standard library
+
+- [Go best practices, six years in] (https://peter.bourgon.org/go-best-practices-2016/) 
+
+   * Some interesting insights, and useful links
 
 
 ## Articles
@@ -103,11 +117,21 @@
 
 - [Make a RESTful JSON API in Go] (http://thenewstack.io/make-a-restful-json-api-go/)
 
+- [Five things that make Go fast] (http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
+
 
 ## Pitfalls
 - [Go channels are bad and you should feel bad] (http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/)
 
     * interesting perspective
+
+
+## Testing
+* **go vet** is for correctness, **golint** is for coding style
+
+- [Interfaces and composition for effective unittesting in Golang] (http://nathanleclaire.com/blog/2015/10/10/interfaces-and-composition-for-effective-unit-testing-in-golang/)
+
+- [Writing table driven tests in Go] (http://dave.cheney.net/2013/06/09/writing-table-driven-tests-in-go)
 
 
 ## Development Environment
@@ -121,12 +145,8 @@
 
 
 ## Books
-- [The Go Programming Language] (http://www.gopl.io/)
-
-    * Basics, frankly effective go is probably more useful.
-
-- [Build Web Application with Golang] (https://github.com/astaxie/build-web-application-with-golang/blob/master/en/preface.md)
-
 - [MEAP: Go in Practice] (https://www.manning.com/books/go-in-practice)
 
     * goes beyond just language syntax, VERY GOOD
+
+- [Build Web Application with Golang] (https://github.com/astaxie/build-web-application-with-golang/blob/master/en/preface.md)
