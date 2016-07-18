@@ -50,6 +50,8 @@
 
     * very organized refs
 
+- [The Log: What every software engineer should know about real-time datas unifying abstraction] (https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+
 
 ## Web / Mobile Development
 
