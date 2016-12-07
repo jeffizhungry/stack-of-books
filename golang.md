@@ -20,6 +20,10 @@
 - [Channel Axioms] (http://dave.cheney.net/2014/03/19/channel-axioms)
 
     * You need to know this!
+    
+- [Dont just check errors, handle them gracefully] (https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully)
+
+    * You need to know this!
 
 - [Go Proverbs] (https://go-proverbs.github.io/)
 
