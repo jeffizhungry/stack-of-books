@@ -27,7 +27,7 @@ var One Singleton
 var hidden Singleton
 
 func DoSomething() string {
-	hidden.DoSomething()
+	return hidden.DoSomething()
 }
 
 // You can also provide functions to set the global function.
@@ -42,4 +42,5 @@ func SetSingeton(s Singleton) {
 type Singleton struct{}
 
 func (s Singleton) DoSomething() string {
+	return ""
 }
