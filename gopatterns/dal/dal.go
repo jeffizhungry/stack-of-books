@@ -2,10 +2,10 @@
 //
 // Models should be decoupled with the database abstraction layer logic. Frameworks
 // such as Django or Ruby on Rails where objects "save themselves", typically use
-// global database connections and do not allow to easily allow mocking external
-// services.
+// global database connections and do not easily allow mocking external services.
 //
-// Statically typed languages need to use dependency injection to allow for mocking.
+// Statically typed languages need to use dependency injection to allow for mocking,
+// so this pattern in prefered.
 //
 // Open Source Examples:
 //	- None
@@ -65,7 +65,8 @@ type StudentDAL struct {
 }
 
 var cache interface {
-	Get(name string) (*Student, error)
+	Get(key string) (*Student, error)
+	Put(key string, *Student) error
 }
 
 func (s *StudentDAL) GetStudentByName(name string) (*Student, error) {
