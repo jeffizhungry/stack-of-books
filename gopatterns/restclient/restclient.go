@@ -27,8 +27,11 @@ import (
 
 // Define an interface for users, this provides a mocking point for them.
 type Clienter interface {
-	GetUsers() []string
-	GetUserByID(id string) string
+
+	// This interface shouldn't expose any details that this is a rest
+	// interface.
+	GetUsers(ctx context.Context) []string
+	GetUserByID(ctx context.Context, id string) User
 }
 
 /******************************************************************************
@@ -51,26 +54,30 @@ type client struct {
 
 // Context should be passed into your requests for logging, timeouts and
 // cancellation signals.
-//
 func (c *client) GetUsers(ctx context.Context) []string {
 
 	return []string{"Chad", "Amy"}
 }
 
 // See above
-func (c *client) GetUserByID(ctx context.Context, id string) string {
-	return "Randy"
+func (c *client) GetUserByID(ctx context.Context, id string) User {
+	return User{Name: "Randy"}
 }
+
+// Common trick: This allows developers of this package to verify client
+// satisfies the interface, before it is actually used.
+var _ Clienter = (*client)(nil)
 
 /******************************************************************************
  * Request
  *****************************************************************************/
+
 // Clients make requests. Apps don't technically need to know about this.
 type request struct {
 }
 
 func (r *request) Do(result interface{}) error {
-
+	return nil
 }
 
 /******************************************************************************
@@ -84,6 +91,9 @@ func (r *request) Do(result interface{}) error {
 //
 // https://mholt.github.io/json-to-go/
 type User struct {
+
+	// Keep members exported to users can read these directly without getter
+	// and setter methods.
 	Name    string    `json:"name"`
 	Created time.Time `json:"created"`
 
@@ -98,9 +108,27 @@ type User struct {
 	Friends []Friend `json:"friends"`
 }
 
+// It's useful to write custom methods on these object to help you application
+// interpret the structure in certain ways.
+func (u *User) IsFriendsWith(name string) bool {
+	return true
+}
+
 type Friend struct {
 	Name               int    `json:"name"`
 	RelationshipStatus string `json:"relationship"`
+}
+
+/******************************************************************************
+ * Your Domain Objects
+ *****************************************************************************/
+//
+// DONT DO THIS
+//
+// You should not be mixing your domain objects with the objects of the service
+// you are connecting to in this package.
+type RESTObject struct {
+	YourDomainObject struct{}
 }
 
 /******************************************************************************
