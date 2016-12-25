@@ -1,5 +1,5 @@
 // Package enums attempts to should show conventions of defining enums in Go,
-// because the language has terrible support for enums.
+// because the language has terrible native support for enums types.
 //
 // Open Source Examples:
 //	- None
