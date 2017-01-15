@@ -1,6 +1,7 @@
 ##Interesting Videos
 - [HBase Schema Design - Things you need to know](https://www.youtube.com/watch?v=_HLoH_PgrLk)
   * lots of information, good intro
+  * By https://www.linkedin.com/in/larsgeorge, author of an O'Reily book on Hbase
 
 - [DynamoDB - The Paper that Changed the Database World] (https://www.youtube.com/watch?v=-4bS6V1rEb4)
   * Dynamo paper ideas that inspired DynamoDB and Cassandra
