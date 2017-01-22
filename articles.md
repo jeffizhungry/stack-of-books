@@ -1,5 +1,5 @@
 ## Interesting Reads
-- [Caching at Reddit)(https://redditblog.com/2017/1/17/caching-at-reddit/)
+- [Caching at Reddit](https://redditblog.com/2017/1/17/caching-at-reddit/)
   - separate cache servers baised on usage type
   - better scalability (depending on workload) and resiliancy (bulkheads)
   - FB's mcrouter -> routing, warmup, failovers
