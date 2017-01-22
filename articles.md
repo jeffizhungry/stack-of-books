@@ -1,4 +1,9 @@
 ## Interesting Reads
+- [Caching at Reddit)(https://redditblog.com/2017/1/17/caching-at-reddit/)
+  - separate cache servers baised on usage type
+  - better scalability (depending on workload) and resiliancy (bulkheads)
+  - FB's mcrouter -> routing, warmup, failovers
+  
 - [Memcached Internals](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
   - Slab Allocation, Consistent Hashing
 
