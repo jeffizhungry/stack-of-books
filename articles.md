@@ -1,4 +1,8 @@
 ## Interesting Reads
+- [Online Migrations at Stripe](https://stripe.com/blog/online-migrations)
+  - incremental migration process on live data
+  - zero down time
+
 - [Caching at Reddit](https://redditblog.com/2017/1/17/caching-at-reddit/)
   - separate cache servers baised on usage type
   - better scalability (depending on workload) and resiliancy (bulkheads)
