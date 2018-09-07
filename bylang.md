@@ -1,20 +1,20 @@
 ## Python
-- [Google Python Class: VIDEO] (https://www.youtube.com/watch?v=tKTZoB2Vjuk)
+- [Google Python Class: VIDEO](https://www.youtube.com/watch?v=tKTZoB2Vjuk)
 
-- [Beyond PEP 8: VIDEO] (https://www.youtube.com/watch?v=wf-BqAjZb8M)
+- [Beyond PEP 8: VIDEO](https://www.youtube.com/watch?v=wf-BqAjZb8M)
 
-- [How to Be More Effective with Functions: VIDEO] (https://www.youtube.com/watch?v=WjJUPxKB164)
+- [How to Be More Effective with Functions: VIDEO](https://www.youtube.com/watch?v=WjJUPxKB164)
 
-- [How to Write Reusable Code: VIDEO] (https://www.youtube.com/watch?v=r9cnHO15YgU)
+- [How to Write Reusable Code: VIDEO](https://www.youtube.com/watch?v=r9cnHO15YgU)
 
-- [A Simple Unix daemon in Python] (http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/)
+- [A Simple Unix daemon in Python] http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/)
 
-- [Nosetests] (https://nose.readthedocs.org/en/latest/)
+- [Nosetests](https://nose.readthedocs.org/en/latest/)
     * test discovery, plug-in support i.e. generating coverage reports
 
-- [Virtual Environments] (http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+- [Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
     * isolates python dependencies by storing a copy of the interpreter and python packages in a separate folder
     * should be dynamically generated new workspaces rather than checked into a repo
 
 ## C++
-- [C++ Unit Testing with Google Test Tutorial] (https://www.youtube.com/watch?v=16FI1-d2P4E)
+- [C++ Unit Testing with Google Test Tutorial](https://www.youtube.com/watch?v=16FI1-d2P4E)
